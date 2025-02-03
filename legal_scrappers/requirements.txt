@@ -1,0 +1,6 @@
+selenium
+webdriver-manager
+beautifulsoup4
+scrapy
+pytesseract
+pdf2image

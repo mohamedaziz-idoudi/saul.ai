@@ -1,0 +1,14 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+
+# Docker-related
+*.env
+*.log
+
+# IDE/editor files
+.vscode/
+.idea/

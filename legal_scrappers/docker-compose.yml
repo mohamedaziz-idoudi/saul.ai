@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  scraper:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - .:/app
+    command: python scrapers/dcaf_scraper.py
+
+  # You can add more services here, for example a scrapy service:
+  scrapy:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - .:/app
+    command: scrapy crawl myspider  # Replace with your scrapy command
