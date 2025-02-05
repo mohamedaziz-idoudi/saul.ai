@@ -1,0 +1,15 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+legal_scrappers/scrapers/scrapy/downloaded_pdfs/
+
+# Virtual environment
+venv/
+
+# Docker-related
+*.env
+*.log
+
+# IDE/editor files
+.vscode/
+.idea/

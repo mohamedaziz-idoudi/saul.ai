@@ -4,3 +4,4 @@ beautifulsoup4
 scrapy
 pytesseract
 pdf2image
+Pillow
